@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <open-data type="userAvatarUrl" class="userinfo-avatar" mode="cover"></open-data>
+    <open-data type="userNickName" class="userinfo-nickname" mode="cover"></open-data>
+  </view>
+  <view class="pkimage">
+    <div class="reveal">
+      <div class="above">
+        TextA
+      </div>
+      <div class="below">
+        <image src='{{leftImage}}'></image>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="above">
+        TextB
+      </div>
+      <div class="below">
+        <image src='{{rightImage}}'></image>
+      </div>
+    </div>
+    <view class='pk'> PK 结果 </view>
+  </view>
+  <button>PK</button>
+  <view class='bottombtn'>
+    <button>分享朋友圈</button>
+    <button>分享给朋友</button>
+  </view>
+</view>
